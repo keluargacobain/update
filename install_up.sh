@@ -11,7 +11,7 @@ export COLBG1="$(cat /etc/cobainvpn/theme/$colornow | grep -w "BG" | cut -d: -f2
 ###########- END COLOR CODE -##########
 
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Remove Old Script"
-rm /usr/bin/menu-backup
+rm /usr/bin/menu
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Downloading New Script"
 # wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/keluargacobain/multiws/main/backup/backup.sh" && chmod +x /usr/bin/FILENAME
